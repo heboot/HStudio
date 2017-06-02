@@ -1,0 +1,77 @@
+<!--index.wxml-->
+<view class="indexcontainer">
+  <swiper class="banner" indicator-dots="true" autoplay="true" interval="5000" duration="2000">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" mode="scaleToFill" class="banner-item" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+
+
+
+
+
+
+  <view class="header">
+    <text>开发服务</text>
+  </view>
+
+
+  <view class="menu_container">
+    <view class="menu_item_left">
+      <image class="menu_item_img" src="../images/app.jpg" mode="scaleToFill"></image>
+      <text class="menu_item_text">APP/网站定制开发</text>
+    </view>
+
+    <view class="menu_item_right">
+      <image class="menu_item_img" src="../images/wx.jpg" mode="scaleToFill"></image>
+      <text class="menu_item_text">微信公众号开发</text>
+    </view>
+  </view>
+
+  <view class="menu_container">
+    <view class="menu_item_left">
+      <image class="menu_item_img" src="../images/xcx.jpg" mode="scaleToFill"></image>
+      <text class="menu_item_text">小程序开发</text>
+    </view>
+
+
+
+
+
+    <view class="menu_item_right">
+      <image class="menu_item_img" src="../images/ban1.jpg" mode="scaleToFill"></image>
+      <text class="menu_item_text">关于我们</text>
+    </view>
+
+  </view>
+
+  <view class="header">
+    <text>客户说</text>
+  </view>
+
+  <view wx:for="{{comments}}" class="">
+
+    <view class="user_list">
+
+      <view class="user_address">{{item.name}}</view>
+      <view class="user_border"></view>
+      <view class="user_comment">
+        <image class="user_comment_image" src="http://shl-resource-public.oss-cn-hangzhou.aliyuncs.com/xcxuser/front_quote.png"></image>
+        <text class="">{{item.content}}</text>
+        <image class="user_comment_image" src="http://shl-resource-public.oss-cn-hangzhou.aliyuncs.com/xcxuser/back_quote.png"></image>
+      </view>
+      <view class="user_border"></view>
+      <view class="user_service_time">{{item.date}} </view>
+
+    </view>
+
+  </view>
+
+
+
+
+
+</view>
