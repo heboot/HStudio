@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/services/app_web"
+    "pages/services/app_web",
+    "pages/services/xiaochengxu"
   ],
   "window": {
     "backgroundTextStyle": "light",

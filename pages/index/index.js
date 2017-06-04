@@ -28,5 +28,10 @@ Page({
   },
   onLoad: function () {
 
+  },
+  app_web_tap:function(e){
+    wx.navigateTo({
+      url: '../services/app_web',
+    })
   }
 })

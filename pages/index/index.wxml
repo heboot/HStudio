@@ -20,7 +20,7 @@
 
 
   <view class="menu_container">
-    <view class="menu_item_left">
+    <view class="menu_item_left" bindtap="app_web_tap">
       <image class="menu_item_img" src="../images/app.jpg" mode="scaleToFill"></image>
       <text class="menu_item_text">APP/网站定制开发</text>
     </view>
