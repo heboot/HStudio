@@ -107,3 +107,7 @@
   text-align: right;
   padding-right: 10rpx;
 }
+
+.menu_bg_red1{
+  background-color: d81e06;
+}

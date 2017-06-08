@@ -21,28 +21,24 @@
 
   <view class="menu_container">
     <view class="menu_item_left" bindtap="app_web_tap">
-      <image class="menu_item_img" src="../images/app.jpg" mode="scaleToFill"></image>
+       
+      <image class="menu_item_img" src="../images/services-app.png" mode="scaleToFill"></image> 
       <text class="menu_item_text">APP/网站定制开发</text>
     </view>
 
     <view class="menu_item_right">
-      <image class="menu_item_img" src="../images/wx.jpg" mode="scaleToFill"></image>
+      <image class="menu_item_img" src="../images/services-wx.png" mode="scaleToFill"></image>
       <text class="menu_item_text">微信公众号开发</text>
     </view>
   </view>
 
   <view class="menu_container">
     <view class="menu_item_left">
-      <image class="menu_item_img" src="../images/xcx.jpg" mode="scaleToFill"></image>
+      <image class="menu_item_img" src="../images/services-xcx.png" mode="scaleToFill"></image>
       <text class="menu_item_text">小程序开发</text>
     </view>
-
-
-
-
-
     <view class="menu_item_right">
-      <image class="menu_item_img" src="../images/ban1.jpg" mode="scaleToFill"></image>
+      <image class="menu_item_img" src="../images/services-about.png" mode="scaleToFill"></image>
       <text class="menu_item_text">关于我们</text>
     </view>
 

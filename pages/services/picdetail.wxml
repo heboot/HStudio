@@ -1,0 +1,2 @@
+<!--picdetail.wxml-->
+<image src="{{imgPath}}"></image>

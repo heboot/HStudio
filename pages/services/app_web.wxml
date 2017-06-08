@@ -30,16 +30,15 @@
       </view>
 
       <view class="pyqcontainer_content_photo">
-        <image class="content_photo_img" src="../images/psb.jpg"></image>
-        <image class="content_photo_img" src="../images/t1.jpg"></image>
-        <image class="content_photo_img" src="../images/t2.jpg"></image>
-
+        <image mode="aspectFill" data-path="1" class="content_photo_img" src="../images/pc1.jpg" bindtap="picTap"></image>
+        <image bindtap="picTap" data-path="2" class="content_photo_img" src="../images/t1.jpg"></image>
+        <image bindtap="picTap" data-path="3" class="content_photo_img" src="../images/t2.jpg"></image>
       </view>
 
       <view class="pyqcontainer_content_photo">
-        <image class="content_photo_img" src="../images/t3.jpg"></image>
-        <image class="content_photo_img" src="../images/t4.jpg"></image>
-        <image class="content_photo_img" src="../images/t5.jpg"></image>
+        <image bindtap="picTap" data-path="4" mode="aspectFill" class="content_photo_img" src="../images/pc5.jpg"></image>
+        <image bindtap="picTap" data-path="5" class="content_photo_img" src="../images/pc2.jpg"></image>
+        <image bindtap="picTap" data-path="6" mode="aspectFill" class="content_photo_img" src="../images/pc6.jpg"></image>
 
       </view>
       <view class="pyqcontainer_time">
@@ -64,7 +63,7 @@
           <view>
             <p><span>大表哥：</span>你说的这这些都啥意思？</p>
           </view>
-           
+
           <view>
             <p><span>小白隆：</span>大哥可以教我做APP吗</p>
           </view>
@@ -95,16 +94,16 @@
       </view>
 
       <view class="pyqcontainer_content_photo">
-        <image class="content_photo_img" src="../images/psb.jpg"></image>
-        <image class="content_photo_img" src="../images/t1.jpg"></image>
-        <image class="content_photo_img" src="../images/t2.jpg"></image>
+        <image bindtap="picTap2"  data-path="1" mode="aspectFill" class="content_photo_img" src="../images/pc1.jpg"></image>
+        <image bindtap="picTap2"  data-path="2" mode="aspectFill" class="content_photo_img" src="../images/pc2.jpg"></image>
+        <image bindtap="picTap2"  data-path="3" class="content_photo_img" src="../images/t2.jpg"></image>
 
       </view>
 
       <view class="pyqcontainer_content_photo">
-        <image class="content_photo_img" src="../images/t3.jpg"></image>
-        <image class="content_photo_img" src="../images/t4.jpg"></image>
-        <image class="content_photo_img" src="../images/t5.jpg"></image>
+        <image bindtap="picTap2"  data-path="4" class="content_photo_img" src="../images/t3.jpg"></image>
+        <image bindtap="picTap2"  data-path="5" mode="aspectFill" class="content_photo_img" src="../images/pc3.png"></image>
+        <image bindtap="picTap2"  data-path="6" mode="aspectFill" class="content_photo_img" src="../images/pc4.jpg"></image>
 
       </view>
       <view class="pyqcontainer_time">
