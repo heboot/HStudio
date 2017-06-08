@@ -3,8 +3,7 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/services/app_web",
-    "pages/services/xiaochengxu",
-    "pages/services/picdetail"
+    "pages/services/xiaochengxu"
   ],
   "window": {
     "backgroundTextStyle": "light",
